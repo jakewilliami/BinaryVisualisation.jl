@@ -1,0 +1,13 @@
+name = "BinaryVisualisation"
+uuid = "f4ad4ead-5e61-49d9-92e0-2b5f8b628196"
+authors = ["Jake Ireland <jakewilliami@icloud.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
