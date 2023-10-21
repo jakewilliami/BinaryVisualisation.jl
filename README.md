@@ -1,3 +1,12 @@
 # BinaryVisualisation
 
-[![Build Status](https://github.com/jakewilliami/BinaryVisualisation.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/jakewilliami/BinaryVisualisation.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+## Quick Start
+
+```julia
+julia> using BinaryVisualisation
+
+julia> BinaryVisualisation.binviz("src/BinaryVisualisation.jl")
+"src/BinaryVisualisation.jl.binviz.png"
+
+shell> open src/BinaryVisualisation.jl.binviz.png
+```
