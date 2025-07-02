@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-```julia
+```julia-repl
 julia> using BinaryVisualisation
 
 julia> BinaryVisualisation.binviz("src/BinaryVisualisation.jl")
